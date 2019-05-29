@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="5ea7da4a1b0040e38399d4383979fe9c" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_5ea7da4a1b0040e38399d4383979fe9c = echarts.init(
+            document.getElementById('5ea7da4a1b0040e38399d4383979fe9c'), 'white', {renderer: 'canvas'});
+        var option_5ea7da4a1b0040e38399d4383979fe9c = {
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "funnel",
+            "data": [
+                {
+                    "name": "pv",
+                    "value": 100
+                },
+                {
+                    "name": "pv_to_cart_and_fav",
+                    "value": 9.5118
+                },
+                {
+                    "name": "pv_to_buy",
+                    "value": 2.2264
+                }
+            ],
+            "sort": "descending",
+            "gap": 0,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12,
+                "formatter": "{b}: {c}%"
+            },
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "formatter": "{b}:{c}%",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "pv_to_buy",
+                "pv",
+                "pv_to_cart_and_fav"
+            ],
+            "selected": {
+                "pv": true,
+                "pv_to_cart_and_fav": true,
+                "pv_to_buy": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u7528\u6237\u884c\u4e3a\u8f6c\u5316\u6f0f\u6597"
+        }
+    ]
+};
+        chart_5ea7da4a1b0040e38399d4383979fe9c.setOption(option_5ea7da4a1b0040e38399d4383979fe9c);
+    </script>
+</body>
+</html>
